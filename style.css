@@ -1,0 +1,46 @@
+body{
+    font-family: 'Sora', sans-serif;
+}
+.card{
+    max-width:330px;
+    padding:10px;
+    margin:0 auto;
+    margin-top:80px;
+    display:flex;
+    gap:10px;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow:10px 10px 25px 0px rgb(236, 236, 236);
+}
+.img{
+    border-radius: 10px;
+}
+.btn{
+    max-width:80px;
+    height:25px;
+    font-size:0.75rem;
+    color: #883AE1;
+    background-color: #E6D6FC;
+    border:none;
+    border-radius: 15px;
+    cursor:pointer;
+}
+.title{
+    margin-top:5px;
+    margin-bottom:0;
+    font-size:1.125rem;
+    color: #20293A;
+}
+.description{
+    margin:0 auto;
+    font-size: 0.875rem;
+    color:#6C727F;
+}
+.author{
+    font-size:0.75rem;
+    color:#6C727F;
+}
+hr{
+    /* height:1px; */
+    width:100%;
+}
